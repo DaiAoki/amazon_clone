@@ -1,13 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-const FirstComponent = () => (
-  <div>Hello Webpacker!</div>
-)
+import App from 'App'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <FirstComponent/>,
+    <App/>,
     document.body.appendChild(document.createElement('div')),
   )
 })
